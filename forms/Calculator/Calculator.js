@@ -6,10 +6,15 @@ let secondNum = ""
 btnAdd.onclick=function(){
   firstNum = inptNum1.value
   secondNum = inptNum2.value
-  lblAnswer.value = parseInt(firstNum) + parseInt(secondNum)
+  calcName = inptCalcName.value
+  let answer = parseInt(firstNum) + parseInt(secondNum)
+  lblAnswer.value = (`${calcName} your calculation is ${answer}`)
 }
 btnMult.onclick=function(){
   firstNum = inptNum1.value
   secondNum = inptNum2.value
-  lblAnswer.value = parseInt(firstNum) * parseInt(secondNum)
+  calcName = inptCalcName.value
+  let answer = parseInt(firstNum) * parseInt(secondNum)
+  lblAnswer.value = (`${calcName} your calculation is ${answer}`)
 }
+

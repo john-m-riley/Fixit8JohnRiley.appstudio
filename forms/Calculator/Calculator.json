@@ -54,6 +54,15 @@
         "Elements",
         "btnMult.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Calculator",
+        "Elements",
+        "inptCalcName.json"
+      ]
     }
   ],
   "class": "",
